@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+    <div class="forecast">
+        <div class="forecast-info">
+            <div class="forecast-info__content">
+                <h2 id="location"></h2>
+                <p id="region"></p>
+                <h2 id="condition"></h2>
+            </div>
+
+            <div class="forecast-info__weather">
+                <img src="#" alt="Weather" id="weather-icon">
+                <p id="weather-text"></p>
+                <h2 id="weather-temperature"></h2>
+            </div>
+        </div>
+
+        <div class="input__wrapper">
+            <input type="text" placeholder="Enter location" class="search" id="country-search">
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="forecast-days">
+            <h2 id="forecast-date">Forecast</h2>
+            <p id="forecast-time"></p>
+            <div class="days" id="daysContainer">
+            </div>
+        </div>
+        <div class="locations">
+            <h2>Locations</h2>
+            <div id="locationContainer">
+                <div class="content">
+                    <h3 id="location-title"></h3>
+                    <p id="location-country"></p>
+                    <p id="location-time"></p>
+                    <h2 id="location-id"></h2>
+                </div>
+
+                <div class="img">
+                    <img src="./imgs/pexels-paweł-l-1121782.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
